@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 16px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.header a {
+  text-decoration: none;
+  color: #E5E7EB;
+  margin-left: 18px;
+}
