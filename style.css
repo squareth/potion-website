@@ -142,3 +142,38 @@ body {
   font-weight: bolder;
   font-size: 28px; 
 }
+
+.bottom {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle {
+  background:#3882F6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  border-radius: 8px;
+  width: 800px;
+  color: #F9FAF8;
+  flex: 0 0 auto;
+}
+
+#call {
+  font-weight: bolder;
+  font-size: 21px;
+}
+
+.rectangle button {
+  text-decoration: none;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bolder;
+  border: solid 2px #F9FAF8;
+  border-radius: 8px;
+  padding: 8px 25px;
+  font-size: 16px;
+}
