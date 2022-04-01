@@ -77,3 +77,43 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 38px;
+}
+
+.information .text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937
+}
+
+.showcase {
+  display: flex;
+  margin-top: 32px;
+}
+
+.potion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 150px;
+}
+
+.potion p {
+  text-align: center;
+}
+
+.picture {
+  height: 150px;
+  width: 150px;
+  border: solid #3882F6;
+  border-radius: 15%;
+  margin-bottom: 8px;
+}
