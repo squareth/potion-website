@@ -83,7 +83,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 38px;
+  padding: 38px 38px 80px;
 }
 
 .information .text {
@@ -116,4 +116,29 @@ body {
   border: solid #3882F6;
   border-radius: 15%;
   margin-bottom: 8px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style:italic;
+  color: #1F2937;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+#quoter {
+  text-align: end;
+  font-style:normal;
+  font-weight: bolder;
+  font-size: 28px; 
 }
