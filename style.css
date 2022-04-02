@@ -109,6 +109,7 @@ img {
 
 .showcase {
   display: flex;
+  align-items: baseline;
   margin-top: 32px;
 }
 
